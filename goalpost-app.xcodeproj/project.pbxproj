@@ -56,6 +56,10 @@
 		E97FC3D7220220930041492D /* goalpost-app */ = {
 			isa = PBXGroup;
 			children = (
+				E97FC3F0220220E90041492D /* Extentions */,
+				E97FC3EF220220DE0041492D /* Enums */,
+				E97FC3EE220220CD0041492D /* View */,
+				E97FC3ED220220C30041492D /* Controller */,
 				E97FC3D8220220930041492D /* AppDelegate.swift */,
 				E97FC3DA220220930041492D /* ViewController.swift */,
 				E97FC3DC220220930041492D /* Main.storyboard */,
@@ -65,6 +69,34 @@
 				E97FC3DF220220930041492D /* goalpost_app.xcdatamodeld */,
 			);
 			path = "goalpost-app";
+			sourceTree = "<group>";
+		};
+		E97FC3ED220220C30041492D /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		E97FC3EE220220CD0041492D /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		E97FC3EF220220DE0041492D /* Enums */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Enums;
+			sourceTree = "<group>";
+		};
+		E97FC3F0220220E90041492D /* Extentions */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Extentions;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
