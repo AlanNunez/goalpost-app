@@ -1,5 +1,5 @@
 //
-//  File.swift
+//  GoalType.swift
 //  goalpost-app
 //
 //  Created by Alan Nunez on 30/01/2019.
@@ -7,3 +7,8 @@
 //
 
 import Foundation
+
+enum GoalType: String {
+    case shortTerm = "Short term"
+    case longTerm = "Long term"
+}
