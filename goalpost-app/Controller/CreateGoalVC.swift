@@ -19,12 +19,12 @@ class CreateGoalVC: UIViewController {
         super.viewDidLoad()
     }
     @IBAction func backBtnWasPressed(_ sender: Any) {
+        dismissDetail()
     }
     @IBAction func shortTermWasPressed(_ sender: Any) {
     }
     @IBAction func longTermBtnWasPressed(_ sender: Any) {
     }
     @IBAction func nextBtnWasPressed(_ sender: Any) {
-        dismiss(animated: true, completion: nil)
     }
 }

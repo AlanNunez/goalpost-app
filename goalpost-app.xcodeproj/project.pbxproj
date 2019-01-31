@@ -16,6 +16,7 @@
 		E97FC3E62202209D0041492D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E97FC3E42202209D0041492D /* LaunchScreen.storyboard */; };
 		E97FC3F2220231A40041492D /* GoalCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = E97FC3F1220231A40041492D /* GoalCell.swift */; };
 		E9EFAB3C22033442001EF348 /* CreateGoalVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9EFAB3B22033442001EF348 /* CreateGoalVC.swift */; };
+		E9EFAB3E22033B14001EF348 /* UIViewControllerExt.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9EFAB3D22033B14001EF348 /* UIViewControllerExt.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -30,6 +31,7 @@
 		E97FC3E72202209D0041492D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		E97FC3F1220231A40041492D /* GoalCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GoalCell.swift; sourceTree = "<group>"; };
 		E9EFAB3B22033442001EF348 /* CreateGoalVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreateGoalVC.swift; sourceTree = "<group>"; };
+		E9EFAB3D22033B14001EF348 /* UIViewControllerExt.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIViewControllerExt.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -104,6 +106,7 @@
 		E97FC3F0220220E90041492D /* Extentions */ = {
 			isa = PBXGroup;
 			children = (
+				E9EFAB3D22033B14001EF348 /* UIViewControllerExt.swift */,
 			);
 			path = Extentions;
 			sourceTree = "<group>";
@@ -184,6 +187,7 @@
 				E97FC3F2220231A40041492D /* GoalCell.swift in Sources */,
 				E97FC3DB220220930041492D /* GoalsVC.swift in Sources */,
 				E97FC3D9220220930041492D /* AppDelegate.swift in Sources */,
+				E9EFAB3E22033B14001EF348 /* UIViewControllerExt.swift in Sources */,
 				E97FC3E1220220930041492D /* goalpost_app.xcdatamodeld in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

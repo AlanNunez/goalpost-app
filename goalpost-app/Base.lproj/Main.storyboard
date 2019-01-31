@@ -12,7 +12,7 @@
         <!--GoalsVC-->
         <scene sceneID="tne-QT-ifu">
             <objects>
-                <viewController id="BYZ-38-t0r" customClass="GoalsVC" customModule="goalpost_app" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="GoalsVC" id="BYZ-38-t0r" customClass="GoalsVC" customModule="goalpost_app" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -183,7 +183,7 @@
         <!--Create GoalVC-->
         <scene sceneID="rOd-nk-s9z">
             <objects>
-                <viewController id="44p-vp-Oiv" customClass="CreateGoalVC" customModule="goalpost_app" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="CreateGoalVC" id="44p-vp-Oiv" customClass="CreateGoalVC" customModule="goalpost_app" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="iCT-8u-7Jx">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -314,7 +314,6 @@
                         <outlet property="goalTextView" destination="OxY-jo-jmT" id="Xox-u8-NsX"/>
                         <outlet property="longTermGoal" destination="fvE-KJ-XO4" id="yo6-T1-j4f"/>
                         <outlet property="nextBtn" destination="w10-Km-aNQ" id="gSE-9R-yEv"/>
-                        <outlet property="shortTermBtnWasPressed" destination="fFJ-6G-NkB" id="04s-wD-gwU"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="DDf-Mc-0LC" userLabel="First Responder" sceneMemberID="firstResponder"/>
