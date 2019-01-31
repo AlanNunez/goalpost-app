@@ -20,6 +20,7 @@ class GoalsVC: UIViewController {
         tableView.dataSource = self
     }
     @IBAction func addGoalBtnWasPressed(_ sender: Any) {
+        
     }
 }
 
