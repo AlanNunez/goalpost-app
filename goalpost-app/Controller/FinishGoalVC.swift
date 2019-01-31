@@ -21,7 +21,7 @@ class FinishGoalVC: UIViewController, UITextFieldDelegate {
         createGoalBtn.bindToKeyboard()
         pointsTextField.delegate = self
     }
-    
+
     @IBAction func backBtnWasPressed(_ sender: Any) {
         dismissDetail()
     }
