@@ -27,7 +27,8 @@ class FinishGoalVC: UIViewController, UITextFieldDelegate {
     }
     
     func initData(description: String, type: GoalType) {
-        
+        goalDescription = description        
+        goalType = type
     }
     
     @IBAction func createGoalBtnWasPressed(_ sender: Any) {
